@@ -2,16 +2,16 @@
 class JeedomStatus < Formula
   desc "Jeedom global status for operating systems status bars"
   homepage "https://github.com/deimosfr/jeedom-status"
-  version "0.5.0"
+  version "0.6.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/deimosfr/jeedom-status/releases/download/v0.5.0/jeedom-status_0.5.0_darwin_amd64.tar.gz"
-    sha256 "9f52e0f371fa140b801978847294cce53800b2e300c551917d22a7b7492ec912"
+    url "https://github.com/deimosfr/jeedom-status/releases/download/v0.6.0/jeedom-status_0.6.0_darwin_amd64.tar.gz"
+    sha256 "50aeafaaf7c2d8774897c38690eeff04e6a11fde2afb76f5cf61bbd2556e7225"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/deimosfr/jeedom-status/releases/download/v0.5.0/jeedom-status_0.5.0_linux_amd64.tar.gz"
-      sha256 "34d32c6576bcda4f758da1037eb656c83dbe571edf6dc898c762eff5e68563df"
+      url "https://github.com/deimosfr/jeedom-status/releases/download/v0.6.0/jeedom-status_0.6.0_linux_amd64.tar.gz"
+      sha256 "68fbebbac68978dfa69513660222eb781e9ad827b1256f944210c06da7061a56"
     end
   end
 
