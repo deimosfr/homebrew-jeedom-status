@@ -7,11 +7,11 @@ class JeedomStatus < Formula
 
   if OS.mac?
     url "https://github.com/deimosfr/jeedom-status/releases/download/v0.7.1/jeedom-status_0.7.1_darwin_amd64.tar.gz"
-    sha256 "16d344aa886ede246be1040d71e45b3aeea081b44700d09b891cd707fe615b5c"
+    sha256 "df0fa362be81173e6e9f3964a261ef2a06c64df5351fc4cea0a6c709df7796ad"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/deimosfr/jeedom-status/releases/download/v0.7.1/jeedom-status_0.7.1_linux_amd64.tar.gz"
-      sha256 "64448ce080df54ef81c37de77958f51dc1f51849ea681721ea8fa162a55a8078"
+      sha256 "7b75b1b36ffd699fe69346a8a84d386154829daabd64991d69090d9e44cdfe44"
     end
   end
 
