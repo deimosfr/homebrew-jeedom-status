@@ -5,24 +5,24 @@
 class JeedomStatus < Formula
   desc "Jeedom global status for operating systems status bars"
   homepage "https://github.com/deimosfr/jeedom-status"
-  version "1.0.2"
+  version "1.0.3"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/deimosfr/jeedom-status/releases/download/v1.0.2/jeedom-status_1.0.2_darwin_amd64.tar.gz"
-    sha256 "a8242bc099de18c6685b91efb1f53eec949be7e70244c1a640836a165fb81850"
+    url "https://github.com/deimosfr/jeedom-status/releases/download/v1.0.3/jeedom-status_1.0.3_darwin_amd64.tar.gz"
+    sha256 "b33fd460b70f8762119e244a64699de85d26de793fdce0092be06ca4037684b3"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/deimosfr/jeedom-status/releases/download/v1.0.2/jeedom-status_1.0.2_darwin_arm64.tar.gz"
-    sha256 "bcdb515703f0c79d80d496925aa3e2fcf0bf726ab4f847711c0779e3919421c6"
+    url "https://github.com/deimosfr/jeedom-status/releases/download/v1.0.3/jeedom-status_1.0.3_darwin_arm64.tar.gz"
+    sha256 "0e328d7210c7e55f17948a87f2810855376111374f6ce814dc6bf4f7b1a041a1"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/deimosfr/jeedom-status/releases/download/v1.0.2/jeedom-status_1.0.2_linux_amd64.tar.gz"
-    sha256 "0bc8beb84917798d61e20e27627f4c60ae846d80195fbe1fa64e9488d1bd6424"
+    url "https://github.com/deimosfr/jeedom-status/releases/download/v1.0.3/jeedom-status_1.0.3_linux_amd64.tar.gz"
+    sha256 "f93a0ab803297bb5d62682ebe1e8f173fb30bc4747989e9ffc000969ecf92c61"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/deimosfr/jeedom-status/releases/download/v1.0.2/jeedom-status_1.0.2_linux_arm64.tar.gz"
-    sha256 "9fcaaf3b583cfdf4a93adebf905ac1099a10e0d64de115dce875184a48c16898"
+    url "https://github.com/deimosfr/jeedom-status/releases/download/v1.0.3/jeedom-status_1.0.3_linux_arm64.tar.gz"
+    sha256 "a383f856e4e26055cd5ed176b96d9770c6d018524ac2df3c439e8ca93b69feb4"
   end
 
   def install
